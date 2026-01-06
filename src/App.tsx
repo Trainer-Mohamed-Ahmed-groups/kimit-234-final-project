@@ -14,6 +14,7 @@ import Search from "./views/Search"
 export default function App() {
     const themeContext = useContext(ThemeContext)
 
+
     return (
         <div className={(themeContext.theme === 'dark' ? 'bg-gray-800 text-amber-50' : '') + ' min-h-dvh'}>
             <Nav />
